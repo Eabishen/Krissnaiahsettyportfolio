@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 :root {
-    --primary-color: rgb(37, 88, 255);
+    --primary-color: rgb(232, 108, 21);
     --white: #fbfbfb;
     --black: rgb(73, 73, 73);
     --border-radius-lg: 30px;
@@ -12,6 +12,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--white);
+    background: var(--primary-color);
+}
+
+::selection {
+    color: var(--white);
+    background: var(--primary-color);
 }
 
 body {
@@ -91,7 +102,7 @@ a {
 
 .overlay {
     position: absolute;
-    background-color: rgba(37, 88, 255, 0.113);
+    background-color: rgba(232, 108, 21, 0.133);
     left: 0;
     right: 0;
     top: 0;
@@ -136,7 +147,7 @@ a {
     height: max-content;
     padding-block: 4rem;
     position: relative;
-    background-color: rgba(37, 88, 255, 0.113);
+    background-color: rgba(232, 108, 21, 0.133);
 }
 
 .about-bg svg {
@@ -206,7 +217,7 @@ a {
 /* Timeline */
 
 #features {
-    background-color: rgba(37, 88, 255, 0.113);
+    background-color: rgba(232, 108, 21, 0.133);
 }
 
 #features .para {
@@ -336,7 +347,7 @@ a {
 /* Subscribe */
 #subcribe {
     padding-block: 4rem;
-    background-color: rgba(37, 88, 255, 0.113);
+    background-color: rgba(232, 108, 21, 0.133);
 }
 
 .joincontainer {
@@ -398,7 +409,7 @@ a {
 
 #contact {
     padding-block: 4rem;
-    background-color: rgba(37, 88, 255, 0.113);
+    background-color: rgba(232, 108, 21, 0.133);
 }
 
 .contactflex {
@@ -434,7 +445,7 @@ a {
 }
 
 .phemailcont .icon1 {
-    background-color: rgba(37, 88, 255, 0.2);
+    background-color: rgba(232, 108, 21, 0.2);
     color: var(--primary-color);
 }
 
@@ -534,7 +545,7 @@ a {
     width: 300px;
     min-height: 300px;
     min-width: 300px;
-    background-color: rgb(37, 88, 255);
+    background-color: rgb(232, 108, 21);
     z-index: -1;
 }
 
@@ -555,6 +566,11 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.phemailcont a {
+    text-decoration: none;
+    color: rgb(232, 108, 21);
 }
 
 /* Responsive */
